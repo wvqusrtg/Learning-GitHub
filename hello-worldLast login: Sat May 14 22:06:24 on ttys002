@@ -1,0 +1,89 @@
+Last login: Sat May 14 22:06:24 on ttys002
+nixinshengdeMacBook-Pro:~ nixinsheng$ pwd
+/Users/nixinsheng
+nixinshengdeMacBook-Pro:~ nixinsheng$ cd Music/hello-world/
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ ls
+(倪新生有道云笔记记录)正式项目-拓展.note_files
+README
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ pwd
+/Users/nixinsheng/Music/hello-world
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git init
+Reinitialized existing Git repository in /Users/nixinsheng/Music/hello-world/.git/
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git add (倪新生有道云笔记记录)正式项目-拓展.note_files
+-bash: syntax error near unexpected token `('
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git add 倪新生有道云笔记记录-正式项目-拓展.note_files
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git commit -m '倪新生有道云笔记记录-正式项目-拓展'
+[master 3bab0ef] 倪新生有道云笔记记录-正式项目-拓展
+ 27 files changed, 2600 insertions(+)
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/06C986F04FDF4AED9450C482AF4ECBC4"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/1414896147736"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/144915EFA3144DFEAE6C7C1928BFFD11"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/1BEFF8963F16437484287B07FA2886E7"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/2249BF1CEE7C49A59361F6582D7E2017"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/6580C7359C11417EACBC27BA02CCB4CF"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/6C8E698896F94141BC327ACBAC9F5A04"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/97710C0A097144E19A06012A3099BD99"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/A6C5C48499184F7CA0A0B9B7909103F8"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/ADF61E459C6A4402B5D617D5AC1C9B31"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/CB0B35E631904EDBB541DE588D493790"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/cac.js"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/cf.gif"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/commonAd.js"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/content.min.css"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/cstk.js"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/file.min.css"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/filemain-9efb46b9e7.js"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/hm.js"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/iframe.html"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/iframeResizer.contentWindow.min.js"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/iframeResizer.js"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/jquery.min.js"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/jsrender.min.js"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/modernizr.js"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/request.html"
+ create mode 100644 "\345\200\252\346\226\260\347\224\237\346\234\211\351\201\223\344\272\221\347\254\224\350\256\260\350\256\260\345\275\225-\346\255\243\345\274\217\351\241\271\347\233\256-\346\213\223\345\261\225.note_files/underscore-min.js"
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git remote add origin https://github.com/wvqusrtg/test.git
+fatal: remote origin already exists.
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git push -u origin master
+Counting objects: 30, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (30/30), 2.20 MiB | 304.00 KiB/s, done.
+Total 30 (delta 1), reused 0 (delta 0)
+
+To https://github.com/wvqusrtg/test.git
+   b602425..3bab0ef  master -> master
+Branch master set up to track remote branch master from origin.
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ 
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git add json-test-push
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git commit -m 'autospread[contact]-json-test'
+[master 32ea4f3] autospread[contact]-json-test
+ 1 file changed, 25 insertions(+)
+ create mode 100644 json-test-push
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 959 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/wvqusrtg/test.git
+   3bab0ef..32ea4f3  master -> master
+Branch master set up to track remote branch master from origin.
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git add README.md
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git commit -m '描述文件'
+[master 9eb0145] 描述文件
+ 1 file changed, 10 insertions(+)
+ create mode 100644 README.md
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git push -u origin test
+error: src refspec test does not match any.
+error: failed to push some refs to 'https://github.com/wvqusrtg/test.git'
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1021 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/wvqusrtg/test.git
+   32ea4f3..9eb0145  master -> master
+Branch master set up to track remote branch master from origin.
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ 

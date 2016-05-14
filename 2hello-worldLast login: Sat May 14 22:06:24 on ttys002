@@ -1,0 +1,175 @@
+Last login: Sat May 14 20:37:39 on console
+nixinshengdeMacBook-Pro:~ nixinsheng$ cd ~/.ssh
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ ssh-keygen -t rsa -C "1911398892@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/nixinsheng/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ cd ~/.ssh
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ ssh-keygen -t rsa -C "1911398892@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/nixinsheng/.ssh/id_rsa): /Users/nixinsheng/Desktop/喔瑞达iphone应用/Iphone/GitHub\ Repositories 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Saving key "/Users/nixinsheng/Desktop/\345\226\224\347\221\236\350\276\276iphone\345\272\224\347\224\250/Iphone/GitHub\\ Repositories " failed: passphrase is too short (minimum four characters)
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ cd ~/.ssh
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ ssh-keygen -t rsa -C "1911398892@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/nixinsheng/.ssh/id_rsa): /Users/nixinsheng/Desktop/喔瑞达iphone应用/Iphone/GitHub\ Repositories 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/nixinsheng/Desktop/喔瑞达iphone应用/Iphone/GitHub\ Repositories .
+Your public key has been saved in /Users/nixinsheng/Desktop/喔瑞达iphone应用/Iphone/GitHub\ Repositories .pub.
+The key fingerprint is:
+SHA256:z6Qy08Yty1R+L15jy/c8Y+c27RgDJgFiNGkQVxjQKMs 1911398892@qq.com
+The key's randomart image is:
++---[RSA 2048]----+
+|    +BB=o        |
+|  . .o=o .       |
+| . o .    .      |
+|  E        .     |
+|        S + o    |
+|       o O o .   |
+|      + B = . * .|
+|       B o ..= %=|
+|        o  ...*=@|
++----[SHA256]-----+
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ cd /Users/nixinsheng/.ssh/
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ ls
+github_rsa	github_rsa.pub	known_hosts
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ cd github_rsa
+-bash: cd: github_rsa: Not a directory
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ ls
+github_rsa	github_rsa.pub	known_hosts
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ cat github_rsa
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: AES-128-CBC,337AFECEB7CFDF27A021C288A74E9525
+
+/M1nwJqXLhxOBN+2dK2i+1bLFl+h/c7+sNHmWPJ8Gn+ESs0A+fIukz2MxVjuM4pj
+lBNkBErIGjSn4DG03ovlVZWD5cH0G2QDWoB+aEDDSZZha1lgXx6/1jJwWOeKBilk
+qsOd/d2jgrqtPGvszuPJGq2kA++Fd9K+wHpR7Gfhu38cZVD9aPQ/ai5bDDESqfaQ
+7iH10oNi6b1rJawSfkvQB5LyWITZLL45nQwN5sGPa9A0rI1wcwKekl/oF6Ej2klz
+QlQBTmZVu9QQdmLwctcsq7otrp4X8pyaYXvuIkzMO/aDBPfz9OZDAkJMIqvSENPI
+DKfem5QG/aLw9zw9xI9IQYM5JvCBt9vAedM0ZMm8R5jJFvzJ30J5fPprdlUSiR30
+hDXFdkxPwg1JWA0StyACM/L/o6hg98DZaG0CwCAPAhg22wKde9WdPPa4/h8be1HB
+2YBGe4rz2mD2RQFj3do9ETsgTXLN8vf0Y3wlaJEuwQOSKxap/jCK60xZkkOgHNu3
+0UdySCeKc0NPxvOiTZ/0gOngr1pOCMDDxioEZj7diSmPrnqSHW3PH9m+xZEXdX4S
+HmfsVgm/uTwwYX0LKBtfwuvyP4nlcl/uUISdB72wMi7t6CeiFXT7SxBRcITnpUGs
+Qrs+5d99khkpY47T4lr4XKGSrBebPf6YjIqJIjlxOcIeL9SEVMxVjZujxP+wT33g
+6Hnl57TaCGYxuAiC+axyikbRU+2J2cJYICHJ8iLHNRcwSdEibhFKLLMfXKQhH3Zn
+QJqvhSSzs2HMNIYIz7cOirPPTTJajenZLOlidP/2ndo1v8HkWiKpmTCd7sy/DFWs
+lhaSaP7ulLWoRHs69Ohz33RmOpQzvYvpEeH7y7yvmkyl7HZSxcjrE+Soz8tqVzve
+UWkcDIFduSRjGaHgoSt/nl1Bu9J7wUmfN4ZqJYOliWGY+6Vx5X4yHVS/ZM/GYxeW
+CUQFdwsplTG9ceYDVDJA+t8idaFc7nAqnkuqrDDbwSakST7y1b53xJgb7UP1sQEm
+JD8a3rwkPS//kkgbsv96az6b8eYkG/ttb2r1EC5EluSWt2ySVb0XKk3dpC/mRhT7
+RCv21dajwTzGLIrTq5LEoqZDcE3b7BQ3gnNkXkhhjygoWk0Fr3dylNy+6c1LGCyt
+OlhtGzC6tmyaqTB8eg8Nl8AlexOCJ0tA3DVFqSIhFlLJWs3W2edo2ZGkVkz0hGPF
+4iJ7tjMgEeRKzTMOi+JEHUensIiv7t/aKy/bPJFiBg6ukkS0KO6Uh6I1MJzoymwD
+lTlgJ+ac6yxeVjImzCXSYd6p0EwUYbZoqVIrqlRBFJkl3qTaoTE506klo15rP5CG
+pdmGBbFg+YTXqMKpGKo+N+zNkyBSjK5LzGob/ros9kjbfBFzPlmCp3afOgUtC2yR
+5zsQ0gIh16WB/iF+dtoEnbxcCJpvVQ49LcpZ6e5AD2Wrza5Ia+qT8N+0EzsKw+ZR
+KnRDGDcZdY8rPlScCcY/0L44TsuK6mqCfK2LVwibjyRTqCrUhxFa6X7QxFq7iL5+
+OeP6wmD5UpSUZQbL3ZnqD6B3BXJy+vkZKuM+4iiedYB1b4A670A8Q5q2m7hsoWIm
+-----END RSA PRIVATE KEY-----
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ cd ~/.ssh
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ pwd
+/Users/nixinsheng/.ssh
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ ssh-keygen -t rsa -C "1911398892@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/nixinsheng/.ssh/id_rsa): /Users/Users/nixinsheng/.ssh/id_rsa
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Saving key "/Users/Users/nixinsheng/.ssh/id_rsa" failed: No such file or directory
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ cd ~/.ssh
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ ssh-keygen -t rsa -C "1911398892@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/nixinsheng/.ssh/id_rsa):  /Users/nixinsheng/.ssh
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Saving key "/Users/nixisheng/.ssh" failed: No such file or directory
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ /Users/nixinsheng/.ssh/nxs_githubkey1911398892@qq.com
+-bash: /Users/nixinsheng/.ssh/nxs_githubkey1911398892@qq.com: Permission denied
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ cd ~/.ssh
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ ssh-keygen -t rsa -C "1911398892@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/nixinsheng/.ssh/id_rsa): /Users/ni^C                    nixinshengdeMacBook-Pro:.ssh nixinsheng$ cd ~/.ssh
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ ssh-keygen -t rsa -C "1911398892@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/nixinsheng/.ssh/id_rsa): /Users/nixinsheng/Desktop/喔瑞达iphone应用/Iphone/GitHub\ Repositories/nxs_githubkey1911398892@qq.com 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Saving key "/Users/nixinsheng/Desktop/\345\226\224\347\221\236\350\276\276iphone\345\272\224\347\224\250/Iphone/GitHub\\ Repositories/nxs_githubkey1911398892@qq.com " failed: No such file or directory
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ cd ~/.ssh
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ ssh-keygen -t rsa -C "1911398892@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/nixinsheng/.ssh/id_rsa): /Users/nixinsheng/Desktop/喔瑞达iphone应用/Iphone/GitHub\ Repositories/github1911398892@qq.com 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Saving key "/Users/nixinsheng/Desktop/\345\226\224\347\221\236\350\276\276iphone\345\272\224\347\224\250/Iphone/GitHub\\ Repositories/github1911398892@qq.com " failed: No such file or directory
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ ls
+github_rsa	github_rsa.pub	known_hosts
+nixinshengdeMacBook-Pro:.ssh nixinsheng$ cd ..
+nixinshengdeMacBook-Pro:~ nixinsheng$ ls
+Applications	Documents	Genymotion	Movies		Pictures	Software
+Desktop		Downloads	Library		Music		Public
+nixinshengdeMacBook-Pro:~ nixinsheng$ cd Music/
+nixinshengdeMacBook-Pro:Music nixinsheng$ pwd
+/Users/nixinsheng/Music
+nixinshengdeMacBook-Pro:Music nixinsheng$ 
+nixinshengdeMacBook-Pro:Music nixinsheng$ pwd
+/Users/nixinsheng/Music
+nixinshengdeMacBook-Pro:Music nixinsheng$ git init
+Initialized empty Git repository in /Users/nixinsheng/Music/.git/
+nixinshengdeMacBook-Pro:Music nixinsheng$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+nixinshengdeMacBook-Pro:Music nixinsheng$ touch README.md
+nixinshengdeMacBook-Pro:Music nixinsheng$ git init
+Reinitialized existing Git repository in /Users/nixinsheng/Music/.git/
+nixinshengdeMacBook-Pro:Music nixinsheng$ git add README.md
+nixinshengdeMacBook-Pro:Music nixinsheng$ echo "# test" >> README.md
+nixinshengdeMacBook-Pro:Music nixinsheng$ git init
+Initialized empty Git repository in /Users/nixinsheng/Music/.git/
+nixinshengdeMacBook-Pro:Music nixinsheng$ git add README.md
+nixinshengdeMacBook-Pro:Music nixinsheng$ git commit -m "first commit"
+[master (root-commit) 5e534a1] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+nixinshengdeMacBook-Pro:Music nixinsheng$ echo "# test" >> README.md
+nixinshengdeMacBook-Pro:Music nixinsheng$ git init
+Initialized empty Git repository in /Users/nixinsheng/Music/.git/
+nixinshengdeMacBook-Pro:Music nixinsheng$ git add README.md
+nixinshengdeMacBook-Pro:Music nixinsheng$ git commit -m "first commit"
+[master (root-commit) 91d4878] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+nixinshengdeMacBook-Pro:Music nixinsheng$ git remote add origin https://github.com/wvqusrtg/test.git
+nixinshengdeMacBook-Pro:Music nixinsheng$ git push -u origin master
+Username for 'https://github.com': yes
+Password for 'https://yes@github.com': 
+nixinshengdeMacBook-Pro:Music nixinsheng$ makdir ~/Music/hello-world
+-bash: makdir: command not found
+nixinshengdeMacBook-Pro:Music nixinsheng$ mkdir ~/Music/hello-world
+nixinshengdeMacBook-Pro:Music nixinsheng$ cd ~/Music/hello-world/
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git init
+Initialized empty Git repository in /Users/nixinsheng/Music/hello-world/.git/
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ touch README
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git add README
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git commit -m 'first commit'
+[master (root-commit) b602425] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git remote add origin https://github.com/wvqusrtg/test.git
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ git push -u origin master
+Username for 'https://github.com': wvqusrtg
+Password for 'https://wvqusrtg@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 215 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/wvqusrtg/test.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+nixinshengdeMacBook-Pro:hello-world nixinsheng$ 

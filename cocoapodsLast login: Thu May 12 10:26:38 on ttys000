@@ -1,0 +1,58 @@
+Last login: Thu May 12 10:26:38 on ttys000
+nixinshengdeMacBook-Pro:~ nixinsheng$ /Users/nixinsheng/Documents/android/android-sdk-macosx/tools/uiautomatorviewer 
+nixinshengdeMacBook-Pro:~ nixinsheng$ 
+  [恢复于 2016年5月12日 下午10:24:34]
+Last login: Thu May 12 22:23:41 on console
+Restored session: 2016年 5月12日 星期四 18时12分24秒 CST
+localhost:~ nixinsheng$ cd /Users/nixinsheng/Desktop/IOS\ Proj/PicturesShow 
+localhost:PicturesShow nixinsheng$ ls
+PicturesShow			Podfile
+PicturesShow.xcodeproj		Podfile.lock
+PicturesShow.xcworkspace	Pods
+PicturesShowTests
+localhost:PicturesShow nixinsheng$ pod install
+Analyzing dependencies
+Downloading dependencies
+Using AFNetworking (3.1.0)
+Using SDWebImage (3.7.6)
+Generating Pods project
+Integrating client project
+Sending stats
+Pod installation complete! There are 2 dependencies from the Podfile and 2 total
+pods installed.
+localhost:PicturesShow nixinsheng$ cd /Users/nixinsheng/Desktop/IOS\ Proj/PicShow 
+localhost:PicShow nixinsheng$ vim Podfile
+localhost:PicShow nixinsheng$ pod install
+Analyzing dependencies
+[!] Unable to find a target named `PicturesShow`, did find `PicShow` and `PicShowTests`.
+localhost:PicShow nixinsheng$ vim Podfile
+localhost:PicShow nixinsheng$ cat Pod
+cat: Pod: No such file or directory
+localhost:PicShow nixinsheng$ cat Podfile
+platform :ios, "8.0"
+use_frameworks!
+target "PicShow" do
+    pod "AFNetworking"
+    pod "SDWebImage"
+end
+localhost:PicShow nixinsheng$ pod install
+Analyzing dependencies
+Downloading dependencies
+Installing AFNetworking (3.1.0)
+Installing SDWebImage (3.7.6)
+Generating Pods project
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `PicShow.xcworkspace` for this project from now on.
+Sending stats
+Pod installation complete! There are 2 dependencies from the Podfile and 2 total
+pods installed.
+localhost:PicShow nixinsheng$ 
+  [恢复于 2016年5月13日 上午9:57:40]
+Last login: Fri May 13 09:57:06 on console
+Restored session: 2016年 5月13日 星期五 01时13分24秒 CST
+nixinshengdeMacBook-Pro:PicShow nixinsheng$ 
+  [恢复于 2016年5月14日 下午8:38:23]
+Last login: Sat May 14 20:37:39 on console
+Restored session: 2016年 5月14日 星期六 17时10分15秒 CST
+nixinshengdeMacBook-Pro:PicShow nixinsheng$ 
