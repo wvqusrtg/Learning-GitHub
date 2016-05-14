@@ -1,0 +1,25 @@
+{
+  "req": {
+    "MacAddress": "70:72:0d:46:b0:70",
+    "add": [
+      {
+        "username": "wxid_wcm7e4xaw0eu21",
+        "nickname": "倪新生",
+        "headpic": "http://wx.qlogo.cn/mmhead/ver_1/BvkTic70W6eSOkVHFLQybQjJxmcTibkEUFXIdIna9WaiclggXialUYwJmOLUs1icu7dH1KVQia43IYFp1fkdh9Krt2ibQecIiapR6UpG3MPCvLowWCQ/132",
+        "updatetime": "2015-1-2 12:12:00"
+      },
+      {
+        "username": "wxid_kfbtw0fufdkd21",
+        "nickname": "?帆帆、、、帆",
+        "headpic": "http://wx.qlogo.cn/mmhead/ver_1/ecCxwhAsZq021HibYHxXSIkxpb733aiazgRlYsQo7TXFyDxiavxtyxAr2p6g1dhcnkIUS5TuNcTicGPYCFQWSMgAK4BJYKV5z5LZqYGI0JtYt80/132",
+        "updatetime": "2015-1-2 12:12:00"
+      },
+      {
+        "username": "xinliyouzuofen0281",
+        "nickname": "-  鱼忆七秒°",
+        "headpic": "http://wx.qlogo.cn/mmhead/ver_1/V4fu9NWzyZ3maVRk0tw0bGvuZAJQo39mOD7XCUzpMdr4f4UsvRQTQfXP3Hj55iaN2vm1oh3Is9yb5oeQToF9jPSXHCCia4OkZ8WumHLXUhn64/132",
+        "updatetime": "2015-1-2 12:12:00"
+      }
+    ]
+  }
+}
